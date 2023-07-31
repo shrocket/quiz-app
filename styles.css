@@ -1,0 +1,20 @@
+/* here is the stuf at the top that has to be there */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* here is stuff about the header  */
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border: solid 2px #d00000;
+  background-color: #f5f1e7;
+}
+h1 {
+  font-size: 37px;
+  color: #d00000;
+}
