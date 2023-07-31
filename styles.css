@@ -21,26 +21,36 @@ h1 {
 
 /* here is stuff about the body  */
 
-h2 {
-  color: #d00000;
+body {
+  background-color: #c7c8ca;
+}
+
+section {
+  display: flex;
 }
 
 .quiz-question-block {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   border: solid 2px #d00000;
   border-radius: 10px;
   background-color: #f5f1e7;
   margin: 20px;
-  padding: 5px;
+  padding: 20px;
+}
+
+.quiz-question {
+  color: #d00000;
+  text-align: center;
 }
 
 .button-style {
   display: flex;
-  border: solid 1px #d00000;
-  background-color: #f5f1e7;
+  border: solid 1px #c7c8ca;
+  background-color: #d00000;
   border-radius: 5px;
-  color: #d00000;
+  color: #f5f1e7;
   margin-bottom: 5px;
 }
