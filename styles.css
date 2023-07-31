@@ -25,9 +25,6 @@ body {
   background-color: #c7c8ca;
 }
 
-section {
-  display: flex;
-}
 
 .quiz-question-block {
   display: flex;
