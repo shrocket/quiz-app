@@ -25,7 +25,6 @@ body {
   background-color: #c7c8ca;
 }
 
-
 .quiz-question-block {
   display: flex;
   flex-wrap: wrap;
@@ -50,4 +49,6 @@ body {
   border-radius: 5px;
   color: #f5f1e7;
   margin-bottom: 5px;
+  width: 100px;
+  font-size: 18px;
 }
