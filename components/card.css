@@ -1,8 +1,4 @@
-body {
-  background-color: var(--color-gray);
-}
-
-.quiz-question-block {
+.quizapp__card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

@@ -8,3 +8,7 @@
   --color-cream: #f5f1e7;
   --color-gray: #c7c8ca;
 }
+
+body {
+  background-color: var(--color-gray);
+}
