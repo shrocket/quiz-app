@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border: solid 2px var(--color-scarlet);
+  background-color: var(--color-cream);
+}
+h1 {
+  font-size: 37px;
+  color: var(--color-scarlet);
+}
