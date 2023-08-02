@@ -1,10 +1,5 @@
 /* here is the stuf at the top that has to be there */
 
-* {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
 /* here is stuff about the header  */
 header {
   display: flex;

@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --color-scarlet: #d00000;
+  --color-cream: #f5f1e7;
+  --color-gray: #c7c8ca;
+}
