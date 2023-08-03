@@ -1,4 +1,5 @@
 .quizapp__card {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -8,6 +9,12 @@
   background-color: var(--color-cream);
   margin: 20px;
   padding: 15px 10px 10px 10px;
+}
+
+.quizapp__card--bookmark {
+  position: absolute;
+  top: -10px;
+  right: 15px;
 }
 
 .quizapp__card--text {
