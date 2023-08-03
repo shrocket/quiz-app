@@ -5,6 +5,10 @@ header {
   border-radius: 10px;
   border: solid 2px var(--color-scarlet);
   background-color: var(--color-cream);
+  /* position: fixed; */
+  /* width: 97%; */
+  /* text-align: center; */
+  /* z-index: 1; */
 }
 h1 {
   font-size: 37px;
