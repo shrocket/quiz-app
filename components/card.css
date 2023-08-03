@@ -10,12 +10,12 @@
   padding: 20px;
 }
 
-.quiz-question {
+.quizapp__card--text {
   color: var(--color-scarlet);
   text-align: center;
 }
 
-.answer-button {
+.quizapp__card--button {
   display: flex;
   border: solid 1px var(--color-gray);
   background-color: var(--color-scarlet);
