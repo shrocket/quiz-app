@@ -7,7 +7,7 @@
   border-radius: 10px;
   background-color: var(--color-cream);
   margin: 20px;
-  padding: 10px;
+  padding: 15px 10px 10px 10px;
 }
 
 .quizapp__card--text {
@@ -49,6 +49,6 @@ a:hover {
 }
 
 a:active {
-  color: hotpink;
+  color: var(--color-scarlet);
 }
 /* link behavior */
