@@ -20,6 +20,7 @@
 .quizapp__card--text {
   color: var(--color-scarlet);
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .quizapp__card--categories {
