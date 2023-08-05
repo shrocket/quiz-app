@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 :root {
@@ -15,5 +16,5 @@ body {
 
 main {
   position: relative;
-  top: 150px;
+  top: 9rem;
 }
