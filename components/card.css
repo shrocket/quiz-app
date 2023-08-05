@@ -1,0 +1,62 @@
+.quizapp__card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* align-items: center; */
+  border: solid 2px var(--color-scarlet);
+  border-radius: 10px;
+  background-color: var(--color-cream);
+  margin: 20px;
+  padding: 15px 10px 10px 10px;
+}
+
+.quizapp__card--bookmark {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+}
+
+.quizapp__card--text {
+  color: var(--color-scarlet);
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.quizapp__card--categories {
+  color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  list-style-type: "#";
+  /* text-align: right; */
+}
+
+/* link behavior */
+a {
+  outline: none;
+}
+
+a:link {
+  color: var(--color-gray);
+}
+
+a:visited {
+  color: var(--color-cream);
+}
+
+a:focus {
+  text-decoration: none;
+  background: var(--color-scarlet);
+}
+
+a:hover {
+  text-decoration: none;
+  background: var(--color-scarlet);
+}
+
+a:active {
+  color: var(--color-scarlet);
+}
+/* link behavior */

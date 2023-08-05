@@ -1,0 +1,11 @@
+.quizapp__card--button {
+  display: flex;
+  align-self: center;
+  border: solid 1px var(--color-gray);
+  background-color: var(--color-scarlet);
+  border-radius: 5px;
+  color: var(--color-cream);
+  margin-bottom: 5px;
+  width: 100px;
+  font-size: 18px;
+}
