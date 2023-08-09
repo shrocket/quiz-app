@@ -17,4 +17,6 @@ body {
 main {
   position: relative;
   top: 9rem;
+  margin-bottom: 250px;
+
 }
