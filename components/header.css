@@ -1,18 +1,15 @@
 header {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   border-radius: 10px;
   border: solid 2px var(--color-scarlet);
   background-color: var(--color-cream);
   position: fixed;
-  width: 97%;
-  text-align: center;
+  width: 100%;
   z-index: 1;
   top: 0;
-  margin-top: 20px;
+  margin: 1rem;
 }
 h1 {
-  font-size: 37px;
+  font-size: 3rem;
   color: var(--color-scarlet);
+  text-align: center;
 }
