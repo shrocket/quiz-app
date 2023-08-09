@@ -1,0 +1,20 @@
+.quizapp__footer {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  border-radius: 10px;
+  border: solid 2px var(--color-scarlet);
+  background-color: var(--color-cream);
+  position: fixed;
+  width: 95%;
+  /* text-align: center; */
+  z-index: 1;
+  bottom: 0;
+  margin-bottom: 0.2rem;
+  box-shadow: 8px 3px 10px 7px var(--color-gray);
+  padding: 1rem;
+}
+
+.quizapp__footer--image {
+  height: 50px;
+}
