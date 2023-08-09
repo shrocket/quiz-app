@@ -12,6 +12,7 @@
 
 body {
   background-color: var(--color-gray);
+  width: 100%;
 }
 
 main {
