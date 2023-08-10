@@ -11,3 +11,11 @@ answerButton.addEventListener("click", () => {
     answerButton.textContent = "Show Answer";
   }
 });
+
+const bookmarkButton = document.querySelector('[data-js="bookmarkButton"]');
+const untickedBookmark = document.querySelector('[data-js="untickedBookmark"]');
+const tickedBookmark = document.querySelector('[data-js="tickedBookmark"]');
+
+bookmarkButton.addEventListener("click", () => {
+  tickedBookmark.classList.toggle("quizapp__card--bookmark--ticked");
+});
