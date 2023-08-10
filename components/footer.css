@@ -1,20 +1,32 @@
 .quizapp__footer {
   display: flex;
-  justify-content: space-evenly;
-  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  /* gap: 3rem; */
   border-radius: 10px;
   border: solid 2px var(--color-scarlet);
   background-color: var(--color-cream);
   position: fixed;
-  width: 95%;
-  /* text-align: center; */
   z-index: 1;
   bottom: 0;
-  margin-bottom: 0.2rem;
-  box-shadow: 8px 3px 10px 7px var(--color-gray);
+  left: 0;
+  right: 0;
+  margin: 1rem;
   padding: 1rem;
 }
 
 .quizapp__footer--image {
-  height: 50px;
+  height: 3rem;
+}
+
+.quizapp__footer--tile {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.quizapp__footer--copyright {
+  font-size: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
