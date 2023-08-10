@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>US States Quiz</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -19,12 +20,19 @@
           In which US State was Kool-Aid invented?
         </h2>
         <button
+          data-js="showAnswer"
           aria-label="Click to Show Answer"
           class="quizapp__card--button"
           type="button"
         >
           Show Answer
         </button>
+        <p
+          data-js="hiddenAnswer"
+          class="quizapp__card--answer--hidden quizapp__card--answer"
+        >
+          Nebraska!
+        </p>
         <ul class="quizapp__card--categories">
           <li><a href="inventions">inventions</a></li>
           <li><a href="history">history</a></li>
