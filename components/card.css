@@ -1,5 +1,5 @@
 .quizapp__card {
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -18,7 +18,7 @@
   background-color: transparent;
   border: 0;
   padding: 0;
-  /* position: absolute; */
+  position: relative;
   top: -10px;
   right: 15px;
   cursor: pointer;
@@ -35,6 +35,10 @@
   top: -10px;
   right: 15px;
 }
+
+/* .hidden {
+  display: none;
+} */
 
 .quizapp__card--text {
   color: var(--color-scarlet);
