@@ -1,7 +1,7 @@
 .quizapp__card {
   /* position: relative; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   border: solid 2px var(--color-scarlet);
   border-radius: 10px;
