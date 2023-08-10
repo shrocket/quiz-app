@@ -6,10 +6,10 @@ header {
   width: 100%;
   z-index: 1;
   top: 0;
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 h1 {
-  font-size: 3rem;
+  font-size: 37px;
   color: var(--color-scarlet);
   text-align: center;
 }
