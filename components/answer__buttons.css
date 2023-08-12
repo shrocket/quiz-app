@@ -11,3 +11,13 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.quizapp__card--answer--hidden {
+  display: none;
+}
+
+.quizapp__card--answer {
+  color: var(--color-scarlet);
+  font-size: 2rem;
+  text-align: center;
+}

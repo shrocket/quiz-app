@@ -14,72 +14,9 @@
   padding: 1rem 0.8rem 0.5rem 0.8rem;
 }
 
-.quizapp__card--bookmarkButton {
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-  position: relative;
-  /* top: -10px; */
-  /* right: 15px; */
-  cursor: pointer;
-}
-
-.quizapp__card--bookmark {
-  position: absolute;
-  top: -25px;
-  right: 15px;
-}
-
-.hidden {
-  display: none;
-}
-
 .quizapp__card--text {
   color: var(--color-scarlet);
   text-align: center;
   padding-bottom: 1rem;
   font-size: 2rem;
 }
-
-.quizapp__card--answer--hidden {
-  display: none;
-}
-
-.quizapp__card--answer {
-  color: var(--color-scarlet);
-  font-size: 2rem;
-  text-align: center;
-}
-
-.quizapp__card--categories {
-  color: var(--color-gray);
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 20px;
-  list-style-type: "#";
-  font-size: 1rem;
-}
-
-/* link behavior */
-a {
-  outline: none;
-}
-a:link {
-  color: var(--color-gray);
-}
-a:visited {
-  color: var(--color-cream);
-}
-a:focus {
-  text-decoration: none;
-  background: var(--color-scarlet);
-}
-a:hover {
-  text-decoration: none;
-  background: var(--color-scarlet);
-}
-a:active {
-  color: var(--color-scarlet);
-}
-/* link behavior */
