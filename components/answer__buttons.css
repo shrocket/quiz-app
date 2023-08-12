@@ -6,10 +6,12 @@
   border-radius: 5px;
   color: var(--color-cream);
   margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
   width: 100px;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
   font-size: 1.2rem;
   cursor: pointer;
+  text-align: center;
 }
 
 .quizapp__card--answer--hidden {
