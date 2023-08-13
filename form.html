@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>US States Quiz</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="./js/index.js" type="module"></script>
+    <script src="index.js" type="module"></script>
   </head>
   <body>
     <header>
       <h1>US States Quiz</h1>
     </header>
     <main>
-      <form js-data="quizappNewCardForm">
-        <section class="quizapp__card" js-data="quizappNewCardFormSection">
+      <form data-js="quizappNewCardForm">
+        <section class="quizapp__card" data-js="quizappNewCardFormSection">
           <h2>Help make this quiz better by adding your own question!</h2>
           <label for="the-question" class="quizapp__newCard--text"
             >Your Question:</label
           >
           <textarea
-            name="the-question"
+            name="theQuestion"
             id="new-post-question"
             maxlength="300"
-            js-data="quizappNewCardQuestionTextArea"
+            data-js="quizappNewCardQuestionTextInput"
             required
           ></textarea>
-          <label for="the-answer" class="quizapp__newCard--text"
+          <label for="theAnswer" class="quizapp__newCard--text"
             >Your Answer:
           </label>
-          <select name="the-answer" id="new-post-answer" required>
+          <select name="theAnswer" id="new-post-answer" required>
             <option
               value=""
               selectd
               hidden
-              js-data="quizappNewCardAnswerDropdown"
+              data-js="quizappNewCardAnswerDropdown"
             >
               --Please choose a US State--
             </option>
@@ -99,7 +99,7 @@
           />
           <button
             class="quizapp__card--button"
-            js-data="quizappNewCardSubmitButton"
+            data-js="quizappNewCardSubmitButton"
           >
             Submit
           </button>
