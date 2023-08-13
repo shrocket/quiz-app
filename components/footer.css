@@ -22,7 +22,8 @@
 .quizapp__footer--tile {
   display: flex;
   justify-content: space-evenly;
-  gap: 5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .quizapp__footer--copyright {
