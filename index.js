@@ -1,6 +1,6 @@
 console.clear();
 
-import { AnswerButton } from "./components/answer__buttons.js";
+import { answerButton } from "./components/answer__buttons.js";
 
 // Bookmark Toggle!
 
