@@ -12,8 +12,8 @@
       <h1>US States Quiz</h1>
     </header>
     <main>
-      <form>
-        <section class="quizapp__card">
+      <form js-data="quizappNewCardForm">
+        <section class="quizapp__card" js-data="quizappNewCardFormSection">
           <h2>Help make this quiz better by adding your own question!</h2>
           <label for="the-question" class="quizapp__newCard--text"
             >Your Question:</label
@@ -22,13 +22,19 @@
             name="the-question"
             id="new-post-question"
             maxlength="300"
+            js-data="quizappNewCardQuestionTextArea"
             required
           ></textarea>
           <label for="the-answer" class="quizapp__newCard--text"
             >Your Answer:
           </label>
           <select name="the-answer" id="new-post-answer" required>
-            <option value="" selectd hidden>
+            <option
+              value=""
+              selectd
+              hidden
+              js-data="quizappNewCardAnswerDropdown"
+            >
               --Please choose a US State--
             </option>
             <option value="nebraska">Nebraska!</option>
@@ -91,7 +97,12 @@
             maxlength="30"
             required
           />
-          <button class="quizapp__card--button">Submit</button>
+          <button
+            class="quizapp__card--button"
+            js-data="quizappNewCardSubmitButton"
+          >
+            Submit
+          </button>
         </section>
       </form>
     </main>

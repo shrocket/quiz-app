@@ -9,5 +9,5 @@ export function AnswerButton() {
       answerButton.textContent = "Show Answer";
     }
   });
-  return AnswerButton;
+  return answerButton;
 }
