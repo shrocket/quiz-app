@@ -1,0 +1,22 @@
+/* link behavior */
+a {
+  outline: none;
+}
+a:link {
+  color: var(--color-gray);
+}
+a:visited {
+  color: var(--color-cream);
+}
+a:focus {
+  text-decoration: none;
+  background: var(--color-scarlet);
+}
+a:hover {
+  text-decoration: none;
+  background: var(--color-scarlet);
+}
+a:active {
+  color: var(--color-scarlet);
+}
+/* link behavior */

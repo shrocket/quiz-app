@@ -2,5 +2,8 @@
 @import "./components/header.css";
 @import "./components/card.css";
 @import "./components/navigation.css";
-@import "./components/button.css";
 @import "./components/footer.css";
+@import "./components/links.css";
+@import "./components/bookmark__buttons.css";
+@import "./components/answer__buttons.css";
+@import "./components/card__categories.css";
