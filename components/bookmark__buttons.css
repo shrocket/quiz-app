@@ -1,0 +1,19 @@
+.quizapp__card--bookmarkButton {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  position: relative;
+  /* top: -10px; */
+  /* right: 15px; */
+  cursor: pointer;
+}
+
+.quizapp__card--bookmark {
+  position: absolute;
+  top: -25px;
+  right: 15px;
+}
+
+.hidden {
+  display: none;
+}

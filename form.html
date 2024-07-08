@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>US States Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>US States Quiz</h1>
+    </header>
+    <main>
+      <form data-js="quizappNewCardForm">
+        <section class="quizapp__card" data-js="quizappNewCardFormSection">
+          <h2>Help make this quiz better by adding your own question!</h2>
+          <label for="the-question" class="quizapp__newCard--text"
+            >Your Question:</label
+          >
+          <textarea
+            name="theQuestion"
+            id="new-post-question"
+            maxlength="300"
+            data-js="quizappNewCardQuestionTextInput"
+            required
+          ></textarea>
+          <label for="theAnswer" class="quizapp__newCard--text"
+            >Your Answer:
+          </label>
+          <select name="theAnswer" id="new-post-answer" required>
+            <option
+              value=""
+              selectd
+              hidden
+              data-js="quizappNewCardAnswerDropdown"
+            >
+              --Please choose a US State--
+            </option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+            <option value="nebraska">Nebraska!</option>
+          </select>
+          <label for="tags" class="quizapp__newCard--text">Tag:</label>
+          <input
+            type="text"
+            name="tags"
+            id="tags"
+            minlength="3"
+            maxlength="30"
+            required
+          />
+          <button
+            class="quizapp__card--button"
+            data-js="quizappNewCardSubmitButton"
+          >
+            Submit
+          </button>
+        </section>
+      </form>
+    </main>
+    <footer class="quizapp__footer">
+      <section class="quizapp__footer--tile">
+        <img
+          class="quizapp__footer--image"
+          src="./assets/home_unticked.png"
+          alt="a simple home icon"
+        />
+        <img
+          class="quizapp__footer--image"
+          src="./assets/bookmark_apikke_unticked.png"
+          alt="a simple bookmark icon"
+        />
+        <img
+          class="quizapp__footer--image"
+          src="./assets/add-post-ticked.png"
+          alt="a simple add-post icon"
+        />
+        <img
+          class="quizapp__footer--image"
+          src="./assets/profile_unticked.png"
+          alt="a simple profile icon"
+        />
+      </section>
+      <p class="quizapp__footer--copyright">
+        &copy 2023 Shawn Huelle
+        <a
+          class="quizapp__footer--copyright"
+          href="https://www.flaticon.com/free-icons/user"
+          title="user icons"
+          >with thanks</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
